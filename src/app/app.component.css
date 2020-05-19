@@ -1,0 +1,45 @@
+   
+  .spacer {
+    flex: 1;
+  }
+  
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #74d4e6;
+    color: rgb(201, 49, 49);
+    font-weight: 600;
+    position: fixed;
+  }
+  .toolbar-img,
+  .toolbar-text{
+    padding: 20px;
+    margin-left: 50px;
+  }
+  .findmetext{   
+    margin-right: 50px;
+  }
+  .findmetextdiv{
+  padding: 20px;
+  }
+  .popovercontent{
+   border-bottom: double;
+   border-color: rgb(235, 236, 240);
+   padding: 5px;
+   width: 150px;
+   text-align: center;
+  }
+  .popovercontentlast{
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+  }  
+  a{
+    text-decoration: none;
+    color: crimson; 
+  }
